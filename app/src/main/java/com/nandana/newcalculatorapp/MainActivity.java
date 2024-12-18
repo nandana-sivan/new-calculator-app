@@ -47,5 +47,12 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(ob2);
             }
         });
+        b4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ob3= new Intent(getApplicationContext(), com.nandana.newcalculatorapp.Div.class);
+                startActivity(ob3);
+            }
+        });
     }
 }
